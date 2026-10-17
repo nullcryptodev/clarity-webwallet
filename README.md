@@ -1,21 +1,17 @@
-# Next.js template
+# Clarity Web Wallet
 
-This is a Next.js template with shadcn/ui.
+<img width="1435" height="1491" alt="image" src="https://github.com/user-attachments/assets/87467771-82f0-41db-9eeb-3c850730323b" />
 
-## Adding components
-
-To add components to your app, run the following command:
+## Build and run
 
 ```bash
-npx shadcn@latest add button
+git clone https://github.com/nullcryptodev/clarity-webwallet
+
+cd clarity-webwallet
+
+pnpm i
+
+pnpm run dev
 ```
 
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+> Requires connecting to a local daemon while we're in testnet, see `lib/rpc.ts`
